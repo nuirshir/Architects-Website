@@ -1,0 +1,122 @@
+*{
+    margin: 0%; 
+    font-family: 'Work Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,800&display=swap');
+
+
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 250px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-c {
+    display: flex;
+    align-items: center;
+}
+nav > h3 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700; 
+}
+
+.nav-c li {
+    list-style: none;
+}
+.nav-c a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;  
+}
+.nav-c a:hover{
+    padding: 3.5px 10px 2.1px;
+    color: black;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 30px;
+    background-color: #fccb61e0;
+}
+
+
+
+
+
+.header-contents {
+    margin: 90px auto 40px;
+    text-align: center;
+}
+.header-t {
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;    
+}
+.header-p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-break: 2px;  
+    padding: 20px 0 30px;
+}
+.header-i {
+    width: 100%;
+}
+
+
+.but{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 21px 24px 20px 25px;
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404)  ;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:576px) {
+    header {
+        padding: 20px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    nav > h3 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .nav-c a{
+        margin-right: 25px;
+    }
+    .header-t {
+        font-size: 40px;   
+    }
+    .header-p {
+        font-size: 10px;
+    }
+    .header-contents {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header {
+        padding: 20px;
+    }
+
+}
+
+
+
+
+
