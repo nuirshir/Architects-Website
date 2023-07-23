@@ -8,6 +8,7 @@
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 250px;
+    width: auto;
 }
 
 nav{
@@ -107,11 +108,17 @@ nav > h3 {
     .header-contents {
         width: auto;
     }
+    .but {
+        padding: 9px 12px 10px 13px;
+        font-size: 15px;
+        font-weight: 600;
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:960px) {
     header {
         padding: 20px;
+
     }
 
 }
